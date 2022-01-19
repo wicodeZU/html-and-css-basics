@@ -1,0 +1,49 @@
+/* document reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* color */
+/* h1{
+    color: red;
+} */
+/* specificity */
+ .h1{
+    color: blue;
+}
+#h1{
+    color: green;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: beige;
+    justify-content: space-between;
+}
+/* .logo{
+    background-color: red;
+} */
+.links-container{
+    /* background-color: blue; */
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+.links-container > ul{
+    display: flex;
+    list-style-type: none;
+    /* column-gap: 20p; */
+    width: 70%;
+    justify-content: space-between;
+    
+
+}
+nav > div > ul > li > a{
+    text-decoration: none;
+    word-spacing: 30px;
+}
